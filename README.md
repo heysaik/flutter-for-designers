@@ -6,6 +6,7 @@
 ## Course Files
 1. [Flutter for Designers](https://github.com/aidev1065/flutter-for-designers/tree/0eba55ccf28d2f000cac95534528c348ae37a8de)
 2. [Building your first widget](https://github.com/aidev1065/flutter-for-designers/tree/675df36c0511d9d9ca066f792668cc51433dadef)
+3. [Introduction to Dart](https://github.com/aidev1065/flutter-for-designers/tree/d6348e6a77ebfe6cbeeb0cbdde92f215c3b85f9e)
 
 ## Install Flutter
 
