@@ -1,3 +1,4 @@
+import 'package:designcode/constants.dart';
 import 'package:designcode/model/sidebar.dart';
 import 'package:flutter/material.dart';
 
@@ -22,11 +23,7 @@ class SidebarRow extends StatelessWidget {
         Container(
           child: Text(
             item.title,
-            style: TextStyle(
-              fontSize: 16.0,
-              fontWeight: FontWeight.w800,
-              color: Color(0xFF242629),
-            ),
+            style: kCalloutLabelStyle,
           ),
         ),
       ],
