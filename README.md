@@ -9,6 +9,7 @@
 3. [Introduction to Dart](https://github.com/aidev1065/flutter-for-designers/tree/d6348e6a77ebfe6cbeeb0cbdde92f215c3b85f9e)
 4. [Classes in Dart](https://github.com/aidev1065/flutter-for-designers/tree/94965cf112c1d5c664b3cf0c936b3cd9db52b173)
 5. [Building a Full Screen Widget](https://github.com/aidev1065/flutter-for-designers/tree/bb0f71cb7d29b1f8936d82278ec6e677216ba99a)
+6. [Building a Card Widget](https://github.com/aidev1065/flutter-for-designers/tree/593616211aa61224b79ea5509b71d6f01f8689ef)
 
 ## Install Flutter
 
