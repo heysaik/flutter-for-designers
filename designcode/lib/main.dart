@@ -1,8 +1,6 @@
-import 'package:designcode/components/sidebar_row.dart';
-import 'package:designcode/constants.dart';
-import 'package:designcode/model/sidebar.dart';
-import 'package:designcode/screens/sidebar_screen.dart';
+import 'package:designcode/model/course.dart';
 import 'package:flutter/material.dart';
+import 'components/cards/recent_course_card.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +12,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Container(),
+        body: SafeArea(
+          child: Container(
+            child: RecentCourseCard(
+              course: recentCourses[2],
+            ),
+          ),
+        ),
       ),
     );
   }
