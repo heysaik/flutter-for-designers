@@ -12,6 +12,7 @@
 6. [Building a Card Widget](https://github.com/aidev1065/flutter-for-designers/tree/593616211aa61224b79ea5509b71d6f01f8689ef)
 7. [Detecting Tap Gestures](https://github.com/aidev1065/flutter-for-designers/tree/bfaf107c6db1724f702bcc7faa6bb355008428f5)
 8. [Stateful Widgets](https://github.com/aidev1065/flutter-for-designers/tree/83402bc6967c6779d090870a6c83a44e82c828d6)
+9. [The List View Widget](https://github.com/aidev1065/flutter-for-designers/tree/dda72c7d3b5a8a94411675a79cfbde12040a320e)
 
 ## Install Flutter
 
