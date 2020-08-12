@@ -18,6 +18,7 @@
 12. Flutter Packages
 13. [Adding Cards to our Sliding Panel](https://github.com/aidev1065/flutter-for-designers/tree/b83a3bde22871a378b85461f42a1cb8545388790)
 14. [Creating Dynamic Widgets](https://github.com/aidev1065/flutter-for-designers/tree/461612225f720f4b1f0c86e6fd34f2d74d244a73)
+15. [Navigation in Flutter](https://github.com/aidev1065/flutter-for-designers/tree/179fe83de6f66c6a8c0c92b8b63e97183fc3ee96)
 
 ## Install Flutter
 
