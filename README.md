@@ -20,6 +20,7 @@
 14. [Creating Dynamic Widgets](https://github.com/aidev1065/flutter-for-designers/tree/461612225f720f4b1f0c86e6fd34f2d74d244a73)
 15. [Navigation in Flutter](https://github.com/aidev1065/flutter-for-designers/tree/179fe83de6f66c6a8c0c92b8b63e97183fc3ee96)
 16. [Animations with the Hero Widget](https://github.com/aidev1065/flutter-for-designers/tree/abe16ad97ddff8854add22487821fb87c5ca0225)
+17. [Building the Course Screen](https://github.com/aidev1065/flutter-for-designers/tree/361ac4892cec54b24b90ccdc18c792637859ba62)
 
 ## Install Flutter
 
