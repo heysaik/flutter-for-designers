@@ -1,5 +1,5 @@
 # Flutter for Designers
-![](https://cl.ly/6338dcbc2dd6/download/1.jpg)
+![](https://images.ctfassets.net/ooa29xqb8tix/65NNTkJkz3KPxMXZD7nSUj/b7261db749fa4cbd3e9bd790718b17ff/Flutter_for_Designers-aerate.jpg)
 ---
 [Flutter](https://flutter.dev/) is a popular mobile app developing framework built by Google to quickly and easily develop apps across platforms. It uses native components to create a real mobile app indistinguishable from one made using Xcode or Android Studio. With Flutter, you'll get access to technologies like hot reload and other web developing tools that have become popular over the past few years. Most importantly, you're building for both iOS and Android using the same codebase.
 
