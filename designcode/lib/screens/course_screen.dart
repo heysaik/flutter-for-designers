@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:designcode/model/course.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
@@ -128,9 +131,165 @@ class _CourseScreenState extends State<CourseScreen> {
                         ),
                       ),
                     ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(right: 28.0),
+                    child: Container(
+                      padding: EdgeInsets.only(
+                        top: 12.5,
+                        bottom: 13.5,
+                        left: 20.5,
+                        right: 14.5,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(16.0),
+                        boxShadow: [
+                          BoxShadow(
+                            color: kShadowColor,
+                            blurRadius: 16.0,
+                            offset: Offset(0, 4),
+                          ),
+                        ],
+                      ),
+                      width: 60.0,
+                      height: 60.0,
+                      child: Image.asset('asset/icons/icon-play.png'),
+                    ),
                   )
                 ],
               ),
+              Padding(
+                padding: EdgeInsets.only(
+                  top: 12.0,
+                  left: 28.0,
+                  right: 28.0,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          child: Padding(
+                            padding: EdgeInsets.all(4.0),
+                            child: Container(
+                              padding: EdgeInsets.all(4.0),
+                              child: CircleAvatar(
+                                child: Icon(
+                                  Platform.isAndroid
+                                      ? Icons.people
+                                      : CupertinoIcons.group_solid,
+                                  color: Colors.white,
+                                ),
+                                radius: 21.0,
+                                backgroundColor: kCourseElementIconColor,
+                              ),
+                              decoration: BoxDecoration(
+                                color: kBackgroundColor,
+                                borderRadius: BorderRadius.circular(29.0),
+                              ),
+                            ),
+                          ),
+                          height: 58.0,
+                          width: 58.0,
+                          decoration: BoxDecoration(
+                            gradient: widget.course.background,
+                            borderRadius: BorderRadius.circular(29.0),
+                          ),
+                        ),
+                        SizedBox(width: 12.0),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "28.7k",
+                              style: kTitle2Style,
+                            ),
+                            Text(
+                              "Students",
+                              style: kSearchPlaceholderStyle,
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Container(
+                          child: Padding(
+                            padding: EdgeInsets.all(4.0),
+                            child: Container(
+                              padding: EdgeInsets.all(4.0),
+                              child: CircleAvatar(
+                                child: Icon(
+                                  Platform.isAndroid
+                                      ? Icons.format_quote
+                                      : CupertinoIcons.news_solid,
+                                  color: Colors.white,
+                                ),
+                                radius: 21.0,
+                                backgroundColor: kCourseElementIconColor,
+                              ),
+                              decoration: BoxDecoration(
+                                color: kBackgroundColor,
+                                borderRadius: BorderRadius.circular(29.0),
+                              ),
+                            ),
+                          ),
+                          height: 58.0,
+                          width: 58.0,
+                          decoration: BoxDecoration(
+                            gradient: widget.course.background,
+                            borderRadius: BorderRadius.circular(29.0),
+                          ),
+                        ),
+                        SizedBox(width: 12.0),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "12.4k",
+                              style: kTitle2Style,
+                            ),
+                            Text(
+                              "Comments",
+                              style: kSearchPlaceholderStyle,
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 28.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "5 years ago, I couldn’t write a single line of Swift. I learned it and moved to React, Flutter while using increasingly complex design tools. I don’t regret learning them because SwiftUI takes all of their best concepts. It is hands-down the best way for designers to take a first step into code.",
+                      style: kBodyLabelStyle,
+                    ),
+                    SizedBox(
+                      height: 24.0,
+                    ),
+                    Text(
+                      "About this course",
+                      style: kTitle1Style,
+                    ),
+                    SizedBox(
+                      height: 24.0,
+                    ),
+                    Text(
+                      "This course was written for people who are passionate about design and about Apple's SwiftUI. It beginner-friendly, but it is also packed with tricks and cool workflows about building the best UI. Currently, Xcode 11 is still in beta so the installation process may be a little hard. However, once you get everything working, then it'll get much friendlier!",
+                      style: kBodyLabelStyle,
+                    ),
+                    SizedBox(height: 24.0),
+                  ],
+                ),
+              )
             ],
           ),
         ),
