@@ -14,6 +14,10 @@
 8. [Stateful Widgets](https://github.com/aidev1065/flutter-for-designers/tree/83402bc6967c6779d090870a6c83a44e82c828d6)
 9. [The List View Widget](https://github.com/aidev1065/flutter-for-designers/tree/dda72c7d3b5a8a94411675a79cfbde12040a320e)
 10. [Animations in Flutter](https://github.com/aidev1065/flutter-for-designers/tree/5926b6d0a728695609d9e81d3026554f209ce8c3)
+11. Further Animations
+12. Flutter Packages
+13. [Adding Cards to our Sliding Panel](https://github.com/aidev1065/flutter-for-designers/tree/b83a3bde22871a378b85461f42a1cb8545388790)
+14. [Creating Dynamic Widgets](https://github.com/aidev1065/flutter-for-designers/tree/461612225f720f4b1f0c86e6fd34f2d74d244a73)
 
 ## Install Flutter
 
