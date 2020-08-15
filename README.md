@@ -1,7 +1,11 @@
 # Flutter for Designers
 ![](https://images.ctfassets.net/ooa29xqb8tix/65NNTkJkz3KPxMXZD7nSUj/b7261db749fa4cbd3e9bd790718b17ff/Flutter_for_Designers-aerate.jpg)
 ---
-[Flutter](https://flutter.dev/) is a popular mobile app developing framework built by Google to quickly and easily develop apps across platforms. It uses native components to create a real mobile app indistinguishable from one made using Xcode or Android Studio. With Flutter, you'll get access to technologies like hot reload and other web developing tools that have become popular over the past few years. Most importantly, you're building for both iOS and Android using the same codebase.
+[Flutter](https://flutter.dev/) is a relatively new toolkit that makes it easy to build cross-platform apps that look gorgeous and is easy to use. By utilizing a platform's native components we'll build an app that can run on both iOS and Android that will look and feel like it was developed natively. Furthermore we'll see how with one single codebase, Flutter provides us with native performance, hot reload for fast development, and access to beautiful, native components.
+
+## About this Course
+
+Much like SwiftUI and React, Flutter uses a declarative UI making it one of the best frameworks for rapid design and development. This is why this course was designed for both designers and developers. We'll explore how to create apps for both major mobile operating systems, Android and iOS, with Flutter and its easy-to-learn Dart programming language. This course is beginner-friendly and will help you dip your toes into the ever-expanding ocean that is Flutter. We've packed this course with design tricks and efficient workflows to help you build great user interfaces in record time.
 
 ## Course Files
 1. [Flutter for Designers](https://github.com/aidev1065/flutter-for-designers/tree/0eba55ccf28d2f000cac95534528c348ae37a8de)
@@ -28,14 +32,20 @@
 22. [Utilizing Widgets across Multiple Screens](https://github.com/aidev1065/flutter-for-designers/tree/557c7517913230d953d215c1c05247ed8750a012)
 23. [Setting Custom App Icons](https://github.com/aidev1065/flutter-for-designers/tree/43d11ae717b4946d707fcfcd9d20886b8cb8b387)
 
-## Install Flutter
+## Requirements
+
+While this course is beginner friendly, it will help to have some programming experience, especially one utilizing a declarative UI. If you're coming from a SwiftUI or React/React Native background, then you should find Flutter and Dart really easy to understand.
+
+In this course, I am running a beta of macOS Big Sur and Xcode 12, as well as Android Studio 4.0.1. Luckily, Flutter has been around for quite some time so it is not required that you use beta applications as I'm sure macOS Catalina and Xcode 11 will work just as well. We'll be using Android Studio to develop our Flutter app so I will guide you in downloading each of the above applications as well as the Flutter and Dart SDK.
+
+### Install Flutter
 
 Before starting, you'll need the Flutter and Dart SDK to create cross platform apps. To install Flutter, head over to [Flutter's installation page](https://flutter.dev/docs/get-started/install) where you can follow the instructions and download the SDK relative to your system.
 
-## Install Xcode
+### Install Xcode
 
 If you're on a Mac, I highly recommend [installing Xcode](https://itunes.apple.com/ca/app/xcode/id497799835?mt=12) for the required **Command Line Tools** and for using the iOS Simulator.
 
-## Install Android Studio
+### Install Android Studio
 
 For this course, I recommend [installing Android Studio](http://developer.android.com/studio) as we will be using it as our IDE. This is because Android Studio provides quick and easy shortcuts that can enhance your workflow when developing for Flutter. Since we are building for both iOS and Android, it will be helpful to test our app on both the iOS Simulator and the Android Virtual Device emulator.
