@@ -1,5 +1,6 @@
 # Flutter for Designers
-![](https://images.ctfassets.net/ooa29xqb8tix/65NNTkJkz3KPxMXZD7nSUj/b7261db749fa4cbd3e9bd790718b17ff/Flutter_for_Designers-aerate.jpg)
+YouTube Video About this Course:
+[![Trailer Video](https://images.ctfassets.net/ooa29xqb8tix/65NNTkJkz3KPxMXZD7nSUj/b7261db749fa4cbd3e9bd790718b17ff/Flutter_for_Designers-aerate.jpg)](https://www.youtube.com/watch?v=bnS3aYE_YUw)
 ---
 [Flutter](https://flutter.dev/) is a relatively new toolkit that makes it easy to build cross-platform apps that look gorgeous and is easy to use. By utilizing a platform's native components we'll build an app that can run on both iOS and Android that will look and feel like it was developed natively. Furthermore we'll see how with one single codebase, Flutter provides us with native performance, hot reload for fast development, and access to beautiful, native components.
 
